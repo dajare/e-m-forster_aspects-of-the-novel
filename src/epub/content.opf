@@ -38,14 +38,15 @@
 		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Nonfiction</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">14</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">E. M. Forster offers an analysis of aspects of the novel.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;“I am annoyed when people laugh at me for loving &lt;a href="https://standardebooks.org/ebooks/johann-david-wyss/the-swiss-family-robinson/mary-jane-godwin_william-godwin"&gt;&lt;i&gt;The Swiss Family Robinson&lt;/i&gt;&lt;/a&gt;, and I hope that I have annoyed some of you over &lt;a href="https://standardebooks.org/ebooks/walter-scott"&gt;Scott&lt;/a&gt;!” Anyone attempting an analysis and evaluation of novels inevitably runs the risk of upsetting those with different literary tastes. &lt;a href="https://standardebooks.org/ebooks/e-m-forster"&gt;E. M. Forster&lt;/a&gt;, in his 1927 Clark Lectures, embraced this challenge in his personal yet seminal account of the English novel.&lt;/p&gt;
+			&lt;p&gt;The previous decade had seen a number of significant contributions to the literary criticism of the novel, and Forster engages with a number of them in his lectures. Yet most of these have been forgotten, while Forster’s &lt;i&gt;Aspects of the Novel&lt;/i&gt; remains in print, with a new edition introduced by Frank Kermode appearing as recently as 2005. The continuing appeal is not simply Forster’s elegant prose, nor his engaging, conversational tone, nor yet the frisson of his many judgments on well-known works and contemporary authors. Rather, the work has proved seminal for Forster’s selection of “aspects,” and the clarity and cogency of his analysis.&lt;/p&gt;
+			&lt;p&gt;Reviews and reactions to his published lectures at the time tended to decry his insights as limited to Forster’s own practice as a leading novelist. More recent critics, with the benefit of hindsight, recognize the way in which Forster’s account of the novel has shaped the development of its study in the 20th century and beyond. As &lt;i&gt;Aspects of the Novel&lt;/i&gt; approaches its centenary, it enjoys an established place as a classic of literary criticism.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/70492</dc:source>
 		<dc:source>https://archive.org/details/aspectsofnovel0000emfo</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Aspects_of_the_Novel</meta>
@@ -58,10 +59,11 @@
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Vincent van Gogh</dc:contributor>
+		<meta property="file-as" refines="#artist">Gogh, Vincent van</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Vincent Willem van Gogh</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Vincent_van_Gogh</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79022935</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Laura Natal Rodrigues</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Rodrigues, Laura Natal</meta>
